@@ -18,10 +18,10 @@ def main():
     print(f"Welcome, {name}! Let's log two expenses.\n")
 
     # 4 & 5. Ask for two expenses and store amounts as numbers
-    item1 = input("Enter first item name: ")
-    amount1 = float(input(f"Enter amount for {item1}: "))
+    item1 = input("First Expense?: ")
+    amount1 = float(input(f"Amount? {item1}: "))
 
-    item2 = input("Enter second item name: ")
+    item2 = input("Second Expense?: ")
     amount2 = float(input(f"Enter amount for {item2}: "))
 
     # Compute total and average
